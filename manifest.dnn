@@ -1,0 +1,73 @@
+<dotnetnuke type="Package" version="9.0">
+  <packages>
+    <package name="harrington health.hh-theme" type="Skin" version="1.0.0">
+      <friendlyName>hh-theme</friendlyName>
+      <description>...</description>
+      <iconFile>MyIcon.png</iconFile>
+      <owner>
+        <name>Micky w/nvQuickTheme</name>
+        <organization>harrington health</organization>
+        <url>www.harringtonhealth.com</url>
+        <email>michael.hallibrin@harringtonhealth.com</email>
+      </owner>
+      <license src="LICENSE" />
+      <dependencies>
+        <dependency type="coreVersion">09.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Skin">
+          <skinFiles>
+            <basePath>Portals\_default\Skins\hh-theme\</basePath>
+            <skinName>hh-theme</skinName>
+            
+            <!-- Main Directory -->
+            <skinFile>
+              <path />
+              <name>default.png</name>
+            </skinFile>
+            <skinFile>
+              <path />
+              <name>thumbnail_default.png</name>
+            </skinFile>
+            <skinFile>
+              <path />
+              <name>LICENSE</name>
+            </skinFile>
+                        
+          </skinFiles>
+        </component>
+        
+        <!-- Menus, Partials, and Root -->
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Skins\hh-theme\</basePath>
+            <resourceFile>
+                <name>else.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        
+        <!-- CSS, Fonts, JS, Images Folder -->
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Skins\hh-theme\</basePath>
+            <resourceFile>
+                <name>dist.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        
+        <!-- Containers Folder -->
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Containers\hh-theme\</basePath>
+            <resourceFile>
+                <name>cont.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

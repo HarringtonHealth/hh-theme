@@ -1,0 +1,93 @@
+
+.SkinLink {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.searchSkinObjectPreview_group {
+    display: none;
+}
+
+ul.dnnAdminTabNav {
+    height: 39px;
+    border-radius: 0 !important;
+}
+
+.dnnActions {
+    display: inline-block;
+}
+
+    .dnnActions li {
+        margin-right: 5px;
+        list-style: none;
+        float: left;
+    }
+
+.form-group .dnnLabel {
+    text-align: left;
+    width: auto;
+}
+
+.dnnLabel + span {
+    white-space: normal;
+}
+
+#ControlBar, #ControlBar:before, #ControlBar:after, #ControlBar *:before, #ControlBar *:after,
+#ControlBar li, #ControlBar li:before, #ControlBar li:after,
+#ControlBar a, #ControlBar a:before, #ControlBar a:after,
+.dnn_mact, .dnn_mact:before, .dnn_mact:after, .dnn_mact *:before, .dnn_mact *:after,
+.dnn_mact li, .dnn_mact li:before, .dnn_mact li:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+.dnnDropDownList .selected-item, .dnnDropDownList .selected-item a {
+    height: 35px !important;
+}
+
+.dnnCheckbox .mark {
+    background: none;
+}
+
+#ControlBar_gettingStartedLink {
+    visibility: hidden;
+}
+
+.ServiceIcon.professional {
+    display: none !important;
+}
+
+.dnnSortable.ui-sortable, .dnnSortable.ui-droppable {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+div .panelOutline {
+    border: 1px grey;
+}
+
+form .actionMenu ul {
+    z-index: auto !important;
+}
+
+#dnn_User_notificationLink strong {
+    font-weight: 300 !important;
+}
+
+#dnn_User_messageLink strong {
+    font-weight: 300 !important;
+}
+
+#dnn_User_avatar img {
+    width: 18px;
+    height: 18px;
+}
+
+ul {
+    margin-bottom: 10px !important;
+}
+
+#dnn_User_registerGroup .list-inline {
+    margin-bottom: 0 !important;
+}
